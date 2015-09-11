@@ -1,0 +1,48 @@
+body {
+background-color:#EEEEEE;
+}
+
+
+table {
+border-collapse: collapse;
+}
+
+table, th, td {
+border: 1px solid black;
+height: 22px;
+}
+
+td.muted {
+background-color:grey;
+}
+
+td.unmuted {
+background-color:#209020;
+}
+
+td.mute, select.macro {
+cursor:pointer;
+}
+
+body > * {
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+}
+
+.no-close .ui-dialog-titlebar-close {
+display: none
+}
+
+.input .level {
+z-index:-1;
+top:0;
+left:0;
+height: 100%;
+width:0%;
+background-color:#50D050;
+}
+
+.input .peaked {
+background-color:red;
+}
